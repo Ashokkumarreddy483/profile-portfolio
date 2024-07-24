@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">DUMPA  VENKATA ASHOK KUMAR REDDY</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">DUMPA VENKATA ASHOK KUMAR REDDY</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic-removebg-preview.png" alt=" D.v.ASHOK KUMAR REDDY profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">D.V.ASHOK KUMAR REDDY</h1>
+        <p class="section__text__p2">Java full stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/VENKATA ASHOK KUMAR REDDY DUMPA UPDATE RESUME (4).pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p> fresher <br />Java full stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/rise-logo-removebg-preview.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><a href="https://www.risekrishnasaiprakasam.edu.in/">RISE Krishna Sai Prakasam Group of Institutions::Ongole</a><br>
+              Approved by AICTE-New Delhi, Affiliated to JNTUK Kakinada<br>
+              Accredited ByNAAC with “A” Grade & NBA for B.Tech. in ECE, EEE, CE, ME and CSE<br>
+              An ISO 9001:2015 certified Institute<br>
+              NH-16, Valluru,-523272, Ongole,Prakasam District,A.P<br>
+              Department of Electronics & Communication Engineering</P>
+              <p>B.tech. Bachelors Degree</p>
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a recent 2024 graduate eager to delve into web development and frontend and backend technologies.
+              I'm fascinated by the versatility of Python in building robust backend systems and equally drawn to crafting engaging user interfaces on the frontend. 
+              I'm has successfully completed the Azure Data Fundamentals in Microsoft from Dec- 17-2022
+              Azure Data Fundamentals is a certification that validates knowledge of core data concepts and azure data services.
+              It's used to Understand relational and non-relational data and Manage transactional and analytical workloads,Utilize Azure SQL, Cosmos DB, storage, and analytics services. I'm excited about the opportunity to apply my skills and contribute meaningfully to innovative projects in these domains.
+              <a href="assets/ashucert microsoft.pdf">Microsoft Azure Data Fundamentals Certification Link</a>
+           
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>css</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3></h3>
+                  <p>Basic</p>
+                </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project
+              IOT BASED AIR CONDITION SUPERVISING SYSTEM
+            </h2>
+            <div class="btn-container">
+            <div class="details-container color-container">
+            <div class="article-container">
+              <p1>The sensors used in this project include the MQ6, PM2.5, LDR, and DHT11, which
+                measure temperature, humidity, CO2, LPG, and butane gas concentrations in the air, as well as
+                dangerous PM2.5 particles in the surrounding area. The LDR sensor is also used to detect 
+                ambient light levels, which indirectly indicates air quality. Light penetration reduces and buzzer 
+                rings occur when air quality becomes contaminated by smoke or smog. An LCD display will be
+                used to indicatethe figures for the temperature, humidity, gas concentrations, and PM2.5 particles. 
+                Every time the air concentration in our surroundings changes, Arduino and IOT will update the
+                data. The tracking of airquality concentrations in particular locations is referred to as GPS. Light 
+                penetration reduces and buzzer rings occur when air quality becomes contaminated by smoke or
+                smog. An LCD display willbe used to indicate the figures for the temperature, humidity, gas 
+                concentrations, and PM2.5 particles. Every time the air concentration in our surroundings changes,
+                Arduino and IOT will update the data. The tracking of air quality concentrations in particular 
+                locations is referred to as GPS. Thus, we are able to determine whether the environment is clean or 
+                not. If the air is hazardous, a buzzer will sound and an alarm will be sent out. The primary goal of
+                this project is for each person to adopt new behaviors by taking steps to protect the environment, 
+                avoid releasing dangerous gases into the atmosphere, and use fewer automobiles for both essential
+                and village transportation. This means that if there are industries close to villages, the unexpected 
+                discharge of industrial gasses throughout thenight can cause many people to pass away from 
+                breathing. Therefore, by keeping this project's equipment in the hamlet, people can be saved from
+                certain death by hearing the buzzer.
+                </p1>
+              <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/BATCH -1 MAJOR PORJECT DOCMENT.pdf')"
+          >
+            Download Document
+              <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/BATCH-1_RESARCH_PPAER[1] F2 (4).pdf')"
+          >
+            Research paper
+              <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/AIR_QUALITY_MONITOR_PPT_BATCH1_ECE2_(1)[1]  -  Read-Only.pdf')"
+          >
+            ppt
+          </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:d.ashokkumarreddy2002@gmail.com">d.ashokkumarreddy2002@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">venkata-ashok-kumar-reddy-dumpa</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 DUMPA VENKATA ASHOK KUMAR REDDY. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
